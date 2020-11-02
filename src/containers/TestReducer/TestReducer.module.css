@@ -1,0 +1,7 @@
+.TestReducer {
+    display: flex;
+    margin: 100px auto;
+    border: 2px solid black;
+    width: 950;
+    height: auto;
+}

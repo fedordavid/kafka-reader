@@ -1,0 +1,12 @@
+.DateRangePicker {
+    display: block;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.Item {
+    display: flex;
+}

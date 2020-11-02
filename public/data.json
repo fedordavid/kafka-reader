@@ -1,0 +1,1351 @@
+[
+    {
+        "msgs_source": "src_ibm_us",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "product": "pizza day 1"
+        },
+        "msgs_timestamp": "2020-10-28T00:00:00.000Z",
+        "msgs_tenantname": "gcod",
+        "msgs_createtime": "2020-10-26T08:36:27.094Z"
+    },
+    {
+        "msgs_source": "src_ibm_us",
+        "msgs_operation": "insert",
+        "msgs_data": {
+            "product": "bread day 1"
+        },
+        "msgs_timestamp": "2020-10-28T00:00:00.000Z",
+        "msgs_tenantname": "gcod",
+        "msgs_createtime": "2020-10-26T08:36:27.098Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 5,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:33:43.000Z",
+                "start_date": "2020-10-25T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 6,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:36:41.000Z",
+                "start_date": "2020-10-24T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:36:41+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:36:41.880Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 6,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:36:41.000Z",
+                "start_date": "2020-10-24T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 7,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 3,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:22.000Z",
+                "start_date": "2020-10-25T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:37:22+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:37:23.017Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 7,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 3,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:22.000Z",
+                "start_date": "2020-10-25T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 8,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 3,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:29.000Z",
+                "start_date": "2020-10-24T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:37:29+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:37:30.364Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 8,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 3,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:29.000Z",
+                "start_date": "2020-10-24T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 9,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:36.000Z",
+                "start_date": "2020-10-16T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:37:36+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:37:37.574Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 9,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:36.000Z",
+                "start_date": "2020-10-16T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 10,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:46.000Z",
+                "start_date": "2020-10-30T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:37:46+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:37:47.428Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 10,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:46.000Z",
+                "start_date": "2020-10-30T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 11,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:52.000Z",
+                "start_date": "2020-11-01T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:37:52+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:37:53.887Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 11,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:52.000Z",
+                "start_date": "2020-11-01T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 12,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:57.000Z",
+                "start_date": "2020-10-26T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:37:57+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:37:58.517Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 12,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:37:57.000Z",
+                "start_date": "2020-10-26T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 13,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 5,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:17.000Z",
+                "start_date": "2020-10-27T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:17+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:18.257Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 13,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 5,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:17.000Z",
+                "start_date": "2020-10-27T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 14,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:22.000Z",
+                "start_date": "2020-10-28T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:22+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:23.696Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 14,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:22.000Z",
+                "start_date": "2020-10-28T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 15,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:28.000Z",
+                "start_date": "2020-10-01T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:28+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:28.707Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 15,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:28.000Z",
+                "start_date": "2020-10-01T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 16,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:32.000Z",
+                "start_date": "2020-11-08T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:32+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:33.353Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 16,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:32.000Z",
+                "start_date": "2020-11-08T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 17,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:37.000Z",
+                "start_date": "2020-12-06T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:37+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:38.478Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 17,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:37.000Z",
+                "start_date": "2020-12-06T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 18,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:43.000Z",
+                "start_date": "2021-01-07T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:43+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:44.873Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 18,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 4,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:43.000Z",
+                "start_date": "2021-01-07T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 19,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:48.000Z",
+                "start_date": "2021-02-03T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:48+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:49.521Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 19,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 1,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:48.000Z",
+                "start_date": "2021-02-03T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 20,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 5,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:53.000Z",
+                "start_date": "2021-03-14T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:53+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:53.711Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 20,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 5,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:53.000Z",
+                "start_date": "2021-03-14T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 21,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:58.000Z",
+                "start_date": "2021-03-25T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:38:58+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:38:58.604Z"
+    },
+    {
+        "msgs_source": "david.fedor1@ibm.com",
+        "msgs_operation": "update",
+        "msgs_data": {
+            "before": {
+                "id": 8546,
+                "consent_version": 21,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 2,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:38:58.000Z",
+                "start_date": "2021-03-25T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            },
+            "after": {
+                "id": 8546,
+                "consent_version": 22,
+                "consenter_id": "0000000017",
+                "purpose_id": 104,
+                "purpose_version": 1,
+                "data_id": 309,
+                "data_value": null,
+                "data_obfuscation_method": null,
+                "geography": null,
+                "access_type_id": 1,
+                "state": 3,
+                "create_date": "2018-02-13T20:33:55.000Z",
+                "modify_date": "2020-10-26T08:39:02.000Z",
+                "start_date": "2021-03-17T00:00:00.000Z",
+                "end_date": "2291-11-28T00:00:00.000Z",
+                "consent_by": null,
+                "written_authorization": false,
+                "attributes": [],
+                "status": "updated",
+                "user": "david.fedor1@ibm.com",
+                "userId": 329,
+                "additional_info": [
+                    {
+                        "name": "URX-00018",
+                        "value": "URX-000018-0000000018"
+                    },
+                    {
+                        "name": "URX-00017",
+                        "value": "URX-000017-0000000017"
+                    }
+                ],
+                "validity_status": 8
+            }
+        },
+        "msgs_timestamp": "2020-10-26T08:39:02+00:00",
+        "msgs_tenantname": "gcdo",
+        "msgs_createtime": "2020-10-26T08:39:03.589Z"
+    },
+    {
+        "msgs_source": "src_ibm_sk",
+        "msgs_operation": "insert",
+        "msgs_data": {
+            "product": "pizza day 2"
+        },
+        "msgs_timestamp": "2020-10-28T00:00:00.000Z",
+        "msgs_tenantname": "gcod",
+        "msgs_createtime": "2020-10-27T08:36:27.101Z"
+    },
+    {
+        "msgs_source": "src_ibm_sk",
+        "msgs_operation": "insert",
+        "msgs_data": {
+            "product": "bread day 2"
+        },
+        "msgs_timestamp": "2020-10-28T00:00:00.000Z",
+        "msgs_tenantname": "gcod",
+        "msgs_createtime": "2020-10-27T08:36:27.103Z"
+    }
+]

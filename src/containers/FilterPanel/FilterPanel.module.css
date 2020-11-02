@@ -1,0 +1,15 @@
+.FilterPanel {
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    width: 1000px;
+}
+
+.SearchButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    vertical-align: bottom;
+    align-content: center;
+    height: auto;
+}
