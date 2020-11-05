@@ -8,8 +8,8 @@ function ButtonElement(props) {
             size="field" 
             kind="primary"
             onClick={props.clicked}
-            disabled={props.disabled}
-            >Search</Button>
+            disabled={props.disabled}>
+        Search</Button>
     )
 }
 

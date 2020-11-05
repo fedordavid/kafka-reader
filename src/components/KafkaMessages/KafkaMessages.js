@@ -3,86 +3,55 @@ import Pagination from '../Pagination/Pagination';
 import KafkaDataTable from '../KafkaDataTable/KafkaDataTable';
 import axiosInstance from './../../axios-instance';
 import Spinner from '../UI/Spinner/Spinner';
-import * as dayjs from 'dayjs'
-var utc = require('dayjs/plugin/utc')
-var tz = require('dayjs/plugin/timezone')
-var isSameOrBefore = require('dayjs/plugin/isSameOrBefore')
-dayjs.extend(utc);
-dayjs.extend(tz);
-dayjs.extend(isSameOrBefore)
-
-const paginationDefaults = {
-    pageSize: 10,
-    page: 1,
-    totalItems: 0
-}
+import { withRouter } from 'react-router-dom';
 
 const KafkaMessages = (props) => {
 
     const [rowData, setData] = useState([]);
-    const [pagination, setPagination] = useState(paginationDefaults);
-    const [loadingData, setLoadingData] = useState(true);
+    const [totalItems, setTotalItems] = useState(0);
+    const [loadingData, setLoadingData] = useState(false);
 
-    useEffect(() => {
+       useEffect(() => {        
+        if (props.filter !== undefined) {
+            
+            let queryString = new URLSearchParams(props.location.search) 
 
-        const filter = props.filter
-        //alert(props.filter)
-        // here we have to react on the changed route path e.g. messages?filter.... to request data
-        // if we have filter object
-        //${filter}
-
-        const queryParams = []
-
-        for (let i in filter) {
-            queryParams.push(encodeURIComponent(i) + '=' + encodeURIComponent(filter[i]));            
+            setLoadingData(true)
+                axiosInstance.get('/message?' + queryString) 
+                    .then(response => {      
+                        setData(response.data);   
+                        setTotalItems(parseInt(response.headers["x-total-count"]))    
+                    })
+                    .finally(() => {
+                        setLoadingData(false)
+                    })
+            console.log("after clic search, loading data")
         }
-
-        // pagination tbd> parametrization
-        // const pagination = '&order=ASC&page=1&perPage=10sort=id'
-
-        let queryString = (queryParams.join('&'));
-        //console.log("useEffect in KafkaMessage", props)
-
-        //&order=ASC&page=${pagination.page}&perPage=${pagination.pageSize}&sort=id
-            axiosInstance.get('/message?' + queryString)
-            .then(response => {        
-                setPagination({page: pagination.page, pageSize: pagination.pageSize, totalItems: response.headers["x-total-count"]});
-                setData(response.data);
-                setLoadingData(false)
-            })
-            .catch(() => {
-                setLoadingData(false)
-            })
-    }, [pagination.page, pagination.pageSize, props.filter])
-
-    //const start = (pagination.page -1) * pagination.pageSize;
-    //const pageData = rowData.slice(start, start + pagination.pageSize);
-    const pageData = rowData;
+    }, [props.location.search])
 
     const onChangeHandler = (e) => {
-        setPagination({ pageSize: e.pageSize, page: e.page })
-        //console.log("setPaginationOnChange", pagination)
+        let queryParams = new URLSearchParams(props.location.search);
+        
+        queryParams.set("page", e.page);
+        queryParams.set("perPage", e.pageSize);
+
+        props.history.push({
+                pathname: '/messages/search/filter',
+                search: '?' + queryParams.toString()
+            })
     }
 
     let dataTable = <Spinner />
 
-    let ISO_RAW = dayjs().format();
-    let ISO_RAW2 = dayjs().toISOString();
-    
     if (!loadingData) {
         dataTable = 
             <>
-            <strong>Dates:</strong> <br />
-            {ISO_RAW} / {ISO_RAW2}  <br /><br />
-
-            <strong>Filter (FP):</strong> <br />
-                    {JSON.stringify(props.filter)}<br /><br />
-             <KafkaDataTable data={pageData} />
+             <KafkaDataTable data={rowData} />
              <Pagination
                 changePage={onChangeHandler}
-                totalItems={pagination.totalItems}
-                pageSize={pagination.pageSize}
-                page={pagination.page} />
+                totalItems={totalItems}
+                pageSize={parseInt(new URLSearchParams(props.location.search).get("perPage"))}
+                page={parseInt(new URLSearchParams(props.location.search).get("page"))} />
             </>
 }
 
@@ -93,4 +62,4 @@ const KafkaMessages = (props) => {
     )
 
 }
-export default KafkaMessages;
+export default withRouter(KafkaMessages);

@@ -21,7 +21,6 @@ const dateRangeDropDownItems = [
 function useDateTimeRange(initial) {
     const [state, dispatch] = useReducer(reduce, initial)
     function reduce(state, action) {
-        //console.log("reduce", action)
         switch (action?.type) {
             case "from":
                 return { ...state, ...{ from: action.value } };
@@ -69,7 +68,6 @@ function useDateRangeDropDown(initial) {
 function useTopicDropDown(initial) {
     const [state, dispatch] = useReducer(reduce, initial)
     function reduce(state, action) {
-        //console.log("reduce topicDropDown", action)
         switch (action?.type) {
             case "change":
                 return { ...state, ...{ selectedItem: action.selectedItem } };
@@ -91,7 +89,6 @@ function useTopicDropDown(initial) {
 function useSearchBar(initial) {
     const [state, dispatch] = useReducer(reduce, initial)
     function reduce(state, action) {
-        //console.log("reduce useSearchBar", action)
         switch (action?.type) {
             case "change":
                 return { ...state, ...{ text: action.text } };
@@ -135,7 +132,6 @@ function TestReducer() {
                 <SearchBar 
                     values={searchBar}
                 />
-                
             </div>
 
             <div style={{ border: "2px solid lime", width: "450px", margin: "5px", padding: "10px" }}>

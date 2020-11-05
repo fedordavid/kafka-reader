@@ -4,7 +4,6 @@ import classes from './DropDown.module.css';
 
 function DropDown(props) {
     const {id, items, label, titleText, change, selectedItem, isDisabled, initialSelectedItem} = props.dropDownValues
-    //console.log("dropDown-values", props.dropDownValues)
     return (
         <div className={classes.DropDown}>
             <Dropdown 
@@ -18,7 +17,7 @@ function DropDown(props) {
                 //itemToString={(item) => (item ? item.text : '')}
                 onChange={change}
                 selectedItem={selectedItem}
-                 />
+                />
         </div>
     )
 }

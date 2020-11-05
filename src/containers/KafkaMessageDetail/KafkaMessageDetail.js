@@ -11,18 +11,7 @@ function KafkaMessageDetail() {
     let { id } = useParams();
 
     useEffect(() => {
-        axios.get('http://localhost:3030/api/message/' + id, {
-            headers: {
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token",
-                "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
-            },
-            mode: 'no-cors', // no-cors, *cors, same-origin
-            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-            credentials: 'omit', // include, *same-origin, omit
-            redirect: 'follow', // manual, *follow, error
-            referrerPolicy: 'no-referrer', // no-referrer, *client
-        })
+        axios.get('http://localhost:3030/api/message/' + id)
             .then(response => {
                 setMessageDetail(response.data)
                 messageDetailLoading(false);
@@ -32,104 +21,11 @@ function KafkaMessageDetail() {
             })
     }, [id])
 
-    function Item({ label, before, after }) {
-        const background = before === after ? "none" : "lime";
-
-        return (
-            <tr>
-                <td> {label} </td>
-                <td> {before} </td>
-                <td> {after} </td>
-            </tr>
-        );
-    }
-
     let detail = <Spinner />
     let changes
 
 
     if (!messageDetailLoading) {
-
-        const message = {
-            id: "1",
-            source: "david.fedor1@ibm.com",
-            operation: "update",
-            json: {
-                before: {
-                    id: 8546,
-                    consent_version: 5,
-                    consenter_id: "0000000017",
-                    purpose_id: 104,
-                    purpose_version: 1,
-                    data_id: 309,
-                    data_value: null,
-                    data_obfuscation_method: null,
-                    geography: null,
-                    access_type_id: 1,
-                    state: 1,
-                    create_date: "2018-02-13T20:33:55.000Z",
-                    modify_date: "2020-10-26T08:33:43.000Z",
-                    start_date: "2020-10-25T00:00:00.000Z",
-                    end_date: "2291-11-28T00:00:00.000Z",
-                    consent_by: null,
-                    written_authorization: false,
-                    "attributes": [],
-                    status: "updated",
-                    user: "david.fedor1@ibm.com",
-                    userId: 329,
-                    "additional_info": [
-                        // {
-                        //     "obfuscation_methods": [
-                        //         {
-                        //             method: 1
-                        //         },
-                        //         {
-                        //             method: 2
-                        //         }
-                        //     ]
-                        // },
-                        {
-                            "name": "URX-00018",
-                            "value": "URX-000018-0000000018"
-                        },
-                        {
-                            "name": "URX-00017",
-                            "value": "URX-000017-0000000017"
-                        }
-                    ],
-                    validity_status: 8
-                },
-                after: {
-                    id: 8546,
-                    consent_version: 6,
-                    consenter_id: "0000000017",
-                    purpose_id: 104,
-                    purpose_version: 1,
-                    data_id: 309,
-                    data_value: null,
-                    data_obfuscation_method: null,
-                    geography: null,
-                    access_type_id: 1,
-                    state: 2,
-                    create_date: "2018-02-13T20:33:55.000Z",
-                    modify_date: "2020-10-26T08:36:41.000Z",
-                    start_date: "2020-10-24T00:00:00.000Z",
-                    end_date: "2291-11-28T00:00:00.000Z",
-                    consent_by: null,
-                    written_authorization: false,
-                    "attributes": [],
-                    status: "updated",
-                    user: "david.fedor1@ibm.com",
-                    userId: 329,
-                    "additional_info": [{ "name": "URX-s00018", "value": "URX-00s0018-0000000018" }, { "name": "URX-00017", "value": "URX-000017s-0000000017" }],
-                    validity_status: 8
-                }
-            },
-            time_stamp: "2020-10-26T08:36:41+00:00",
-            tenant_name: "gcdo",
-            create_time: "2020-10-27T09:53:18.818Z",
-            topic: null
-        }
 
         function diff(label, before, after) {
             if (typeof before !== "object" && typeof after !== "object")

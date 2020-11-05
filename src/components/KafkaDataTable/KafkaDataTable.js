@@ -33,7 +33,6 @@ function KafkaDataTable(props)
     ];
     let history = useHistory();
 
-
     return (
       <>
         <DataTable isSortable

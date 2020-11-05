@@ -14,7 +14,6 @@ const pagination = (props) => {
                 pageSize={props.pageSize}
                 onChange={props.changePage}
                 pageSizes={[
-                    5,
                     10,
                     20,
                     30,
